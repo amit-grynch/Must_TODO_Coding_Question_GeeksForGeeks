@@ -40,7 +40,6 @@ public class SortingArrayContaining012 {
     public static int[] sortingArray(int[]intArray, int arraySize) {
     	Map<Integer,Integer> map=new TreeMap<>();
     	int index=0;
-    	//int[] sortedArray=new int[arraySize];
     	for(int i=0;i<arraySize;i++) {
     		Integer occurence=map.get(intArray[i]);
     		if(occurence==null) {
