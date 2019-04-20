@@ -25,7 +25,7 @@ public class SortingArrayContaining012_OptimizedUsingDNF {
         	 intArray[i]=Integer.parseInt(br.readLine());
          }
          sortingArray(intArray,arraySize);
-         System.out.println(" Printing the Array after the sorting ");
+         System.out.println(" Printing the Array After The Sorting ");
          for(int j=0;j<arraySize;j++) {
         	 sb.append(intArray[j]);
          }
