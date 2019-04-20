@@ -20,7 +20,7 @@ public class SortingArrayContaining012_OptimizedUsingDNF {
 		System.out.print("Enter the Size of Array :");
 		int arraySize=Integer.parseInt(br.readLine());
 		int intArray[] =new int[arraySize];
-       System.out.println(" Enter the element of arrays : ");
+       System.out.println(" Enter the Element of Array : ");
          for(int i=0;i<arraySize;i++) {
         	 intArray[i]=Integer.parseInt(br.readLine());
          }
@@ -31,7 +31,7 @@ public class SortingArrayContaining012_OptimizedUsingDNF {
          }
          System.out.println(sb);
 		}catch (Exception e) {
-		 System.out.println("Doing Something Wrong");
+		 System.out.println("Doing Something Wrong.Please Check");
 		}
 	}
 	
