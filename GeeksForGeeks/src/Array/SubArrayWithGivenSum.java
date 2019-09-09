@@ -3,6 +3,11 @@ package Array;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * @author amitg
+ * Solution is Naive and Time Complexity is O(n^2)
+ *
+ */
 public class SubArrayWithGivenSum {
 
 	public static void main(String[] args) {
