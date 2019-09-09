@@ -3,6 +3,10 @@ package Array;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * @author amitg
+ * Solution is optimized and Time Complexity is O(N)
+ */
 public class SubArrayWithGivenSum_Optimmized {
 
 	public static void main(String[] args) {
@@ -22,7 +26,8 @@ public class SubArrayWithGivenSum_Optimmized {
 			for (int i = 1; i <= strArrayElement.length; i++) {
 				intArray[i] = Integer.parseInt(strArrayElement[i-1]);
 			}
-			findSubArray(intArray, requiredSum, arraySize);
+		boolean find=findSubArray(intArray, requiredSum, arraySize);
+		System.out.println(find);
 			testCases--;
 			}
 		} catch (Exception e) {
@@ -45,6 +50,7 @@ public class SubArrayWithGivenSum_Optimmized {
 		     }
 		     if(i<arraySize)
 		    	 current_sum=current_sum+intArray[i];
+		     System.out.println("Current Sum : "+current_sum);
 	   }
 	   return false;
    }
